@@ -10,6 +10,7 @@ export default function ImageDetails(props) {
         <img src={props.imageDetails.imageURL} alt="" />
         <p>{props.imageDetails.description}</p>
         <p>changes</p>
+        <p>changes2</p>
         <StyledPrimaryButton>{props.imageDetails.likes} Likes</StyledPrimaryButton>
       </>
       )}
